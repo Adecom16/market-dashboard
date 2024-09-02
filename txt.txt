@@ -449,3 +449,90 @@
     </div>
   </body>
 </html>
+
+
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .dashboard {
+        flex-direction: column;
+    }
+
+    .user-profile {
+        gap: 5px;
+    }
+
+    .sidebar {
+        transform: translateX(-100%); /* Hide sidebar by default */
+    }
+
+    /* Hover effect to show the sidebar */
+    .sidebar:hover {
+        transform: translateX(0);
+    }
+
+    /* Table Adjustments */
+    .all-tokens table {
+        display: block; /* Make table scrollable */
+        overflow-x: auto;
+        white-space: nowrap; /* Prevent text wrapping */
+    }
+
+    .all-tokens table tbody tr {
+        display: block;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #333;
+    }
+
+    .all-tokens table tbody td {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .all-tokens table tbody td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #fff;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .all-tokens table thead {
+        display: none; /* Hide headers on small screens */
+    }
+
+    .all-tokens table tbody tr {
+        display: block;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #333;
+    }
+
+    .all-tokens table tbody td {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .all-tokens table tbody td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #fff;
+    }
+}
