@@ -391,7 +391,6 @@ body {
     }
 }
 
-/* Responsive Adjustments */
 @media (max-width: 1024px) {
     .main-content {
         margin-left: 0;
