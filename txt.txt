@@ -536,3 +536,50 @@
         color: #fff;
     }
 }
+
+
+     <tr>
+                        <td><img src="./images/logo18.png" class="logo-img" alt="" /> RadioShack (RADIO)</td>
+                        <td>$0.000746</td>
+                        <td>$209.41 M</td>
+                        <td>$2.22 M</td>
+                        <td>124.85 K</td>
+                        <td>4.98 K</td>
+                        <td>279.59 B</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/logo19.png" class="logo-img" alt="" /> Media Network (MEDIA)</td>
+                        <td>$4.15</td>
+                        <td>$9.86 M</td>
+                        <td>$1.37 M</td>
+                        <td>20.5 K</td>
+                        <td>4.18 K</td>
+                        <td>2.37 M</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/logo20.png" class="logo-img" alt="" /> Decubate (DCB)</td>
+                        <td>$0.01364</td>
+                        <td>$2.64 M</td>
+                        <td>$0.61 M</td>
+                        <td>29.96 K</td>
+                        <td>1.27 K</td>
+                        <td>193.26 M</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/logo21.png" class="logo-img" alt="" /> DXdao (DXD)</td>
+                        <td>$0.00181</td>
+                        <td>$1.71 M</td>
+                        <td>$0.55 M</td>
+                        <td>20.35 K</td>
+                        <td>640</td>
+                        <td>168.08 M</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/logo22.png" class="logo-img" alt="" /> DATA (DTA)</td>
+                        <td>$0.00003</td>
+                        <td>$2.31 M</td>
+                        <td>$5.45 K</td>
+                        <td>50.8 K</td>
+                        <td>1.34 K</td>
+                        <td>10.21 B</td>
+                    </tr>
